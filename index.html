@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <img src="img/logo.png" alt="logo fp">
+        <img src="./img/logo.png" alt="logo fp">
         <nav>
             <ul>
                 <li>Home</li>
@@ -30,23 +30,68 @@
         </nav>
     </header>
 
-    <section>
+    <section class="container">
         <div class="list">
-            <div class="item">
+
+            <div class="item active">
                 <div class="car-img">
-                    <img src="img/1.png" alt="imagem carro">
+                    <img src="./img/1.png" alt="imagem carro">
                 </div>
                 <div class="content">
                     <p class="car-information">
                         Único Dono
                     </p>
                     <h2>
-                        Porsche
+                        911 Turbo
                     </h2>
                     <p class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero libero tempore nulla
-                        dolore saepe repellat quasi reiciendis ut veritatis. Iusto fuga expedita consequuntur in beatae
-                        nisi earum minima repellendus!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat dolorum, dolore saepe, rem
+                        recusandae numquam perferendis quia ratione fugit quod non veritatis eum assumenda voluptatibus
+                        hic atque eius est incidunt!
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="./img/2.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        Conversível
+                    </p>
+                    <h2>
+                        Ferrari
+                    </h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat dolorum, dolore saepe, rem
+                        recusandae numquam perferendis quia ratione fugit quod non veritatis eum assumenda voluptatibus
+                        hic atque eius est incidunt!
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="./img/3.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        2015
+                    </p>
+                    <h2>
+                        Lamborghini
+                    </h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat dolorum, dolore saepe, rem
+                        recusandae numquam perferendis quia ratione fugit quod non veritatis eum assumenda voluptatibus
+                        hic atque eius est incidunt!
                     </p>
                     <button class="information">
                         Saiba Mais
@@ -55,9 +100,10 @@
             </div>
         </div>
 
+
         <div class="arrows">
-            <button><img src="img/arrow.png" alt="seta esquerda"></button>
-            <button><img src="img/arrow.png" alt="seta direita"></button>
+            <button id="prev"><img src="img/arrow.png" alt="seta esquerda"></button>
+            <button id="next"><img src="img/arrow.png" alt="seta direita"></button>
         </div>
 
         <div class="indicators">
@@ -67,10 +113,10 @@
                 <li></li>
                 <li></li>
             </ul>
-
         </div>
-
     </section>
+
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
